@@ -21,6 +21,7 @@ import (
 	"github.com/openlibrecommunity/olcrtc/internal/transport/datachannel"
 	"github.com/openlibrecommunity/olcrtc/internal/transport/seichannel"
 	"github.com/openlibrecommunity/olcrtc/internal/transport/videochannel"
+	"github.com/openlibrecommunity/olcrtc/internal/transport/vless"
 	"github.com/openlibrecommunity/olcrtc/internal/transport/vp8channel"
 )
 
@@ -150,6 +151,7 @@ func RegisterDefaults() {
 	transport.Register("videochannel", videochannel.New)
 	transport.Register("seichannel", seichannel.New)
 	transport.Register("vp8channel", vp8channel.New)
+	transport.Register("vless", vless.New)
 }
 
 // Validate verifies that the runtime config refers to registered components and all required fields are present.
