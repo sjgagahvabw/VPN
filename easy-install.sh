@@ -99,7 +99,7 @@ log_step "Клонирование VPN-olcRTC..."
 
 cd /opt
 rm -rf vpn-olcrtc
-git clone -q https://github.com/sjgagahvabw/Vpn-olcrtc.git vpn-olcrtc
+git clone -q https://github.com/sjgagahvabw/VPN.git vpn-olcrtc
 cd vpn-olcrtc
 
 log_info "Репозиторий склонирован"
