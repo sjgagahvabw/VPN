@@ -249,3 +249,15 @@ code/package-lock.json
 olcrtc
 !cmd/olcrtc/
 !cmd/olcrtc/main_test.go
+
+# Connection info with secrets
+connection-info.txt
+client-config.txt
+*.key
+*.pem
+*.crt
+config.json
+
+# Data directories
+data/
+logs/
